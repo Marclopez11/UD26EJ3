@@ -22,11 +22,13 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.example.ud26ex3.dto.Usuario;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import com.example.ud26ex3.dto.Usuario;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
